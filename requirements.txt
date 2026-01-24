@@ -1,0 +1,25 @@
+# GameCore Monitor - Dependencies
+# Phase 1: Core PC Monitor
+
+# Python 3.12 compatibility
+setuptools>=65.0.0      # Required for GPUtil with Python 3.12+
+
+# Core monitoring
+psutil>=5.9.0           # CPU, RAM, disk, network monitoring
+GPUtil>=1.4.0           # GPU statistics (NVIDIA)
+
+# Windows hardware info
+wmi>=1.5.1              # Windows Management Instrumentation
+pywin32>=306            # Windows API access
+
+# UI Framework
+streamlit>=1.28.0       # Interactive dashboard
+plotly>=5.17.0          # Interactive charts
+pandas>=2.1.0           # Data manipulation
+
+# Utilities
+python-dateutil>=2.8.2  # Date/time utilities
+colorama>=0.4.6         # Terminal colors (for CLI mode)
+
+# Optional: Advanced GPU monitoring
+# pynvml>=11.5.0        # NVIDIA Management Library (alternative to GPUtil)
